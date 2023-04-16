@@ -1,0 +1,115 @@
+.right-sides {
+    width: 100%;
+    box-sizing: border-box;
+    height: 72px;
+    background: #373F68;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .image {
+        width: 350px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .dropdownTitle {
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+
+            color: #F2F4FE;
+
+            mix-blend-mode: normal;
+            opacity: 0.75;
+
+            img {
+                width: 11px;
+                height: 6px;
+
+                color: #FFFFFF !important;
+            }
+        }
+
+        img {
+            width: 23px;
+            height: 24px;
+        }
+
+        .six {
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 26px;
+            /* identical to box height */
+
+            letter-spacing: -0.25px;
+
+            color: #FFFFFF;
+        }
+
+        .dropdownContainer {
+            position: absolute;
+            top: 145px;
+            left: 794px;
+            height: 192px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            overflow-y: auto;
+            border-radius: 10px;
+            transition: 0.3s;
+
+
+        }
+
+        .dropdownContainer a:last-child {
+            border-bottom: none;
+        }
+
+        .dropdownContainer a {
+            display: block;
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 3px;
+            transition: 0.3s;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 23px;
+        }
+
+        .dropdownContainer a:hover {
+            cursor: pointer;
+            color: #AD1FEA;
+        }
+    }
+
+    .feedback {
+        width: 158px;
+        height: 44px;
+        background: #AD1FEA;
+        border-radius: 10px;
+        border: none;
+        color: #fff;
+        transition: 0.3s;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 40px;
+        color: #F2F4FE;
+
+    }
+
+    .feedback:hover {
+        cursor: pointer;
+    }
+    .backdrop{
+        display: none;
+    }
+}

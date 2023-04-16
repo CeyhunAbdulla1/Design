@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+@import "../src/style/pages/desktop.scss";
+@import "../src//style//pages/details.scss";
+@import "../src//style//pages/newfeedback.scss";

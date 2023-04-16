@@ -1,0 +1,553 @@
+.roadmap {
+    background: #F2F2F2;
+
+    .container {
+        max-width: 1070px;
+        margin: 50px auto;
+
+        .header {
+            margin-top: 30px;
+            background: #373F68;
+            border-radius: 10px;
+            height: 113px;
+            width: 1110px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .headerAlign {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                margin: 20px;
+            }
+
+            img {
+                color: #F2F2F2;
+                margin-right: 22px;
+
+            }
+
+            span {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 20px;
+
+                color: #FFFFFF;
+
+            }
+
+            h2 {
+
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 35px;
+                /* identical to box height */
+
+                letter-spacing: -0.333333px;
+
+                color: #FFFFFF;
+            }
+
+            .addButton {
+                background: #AD1FEA;
+                border-radius: 10px;
+                height: 44px;
+                padding: 10px 10px;
+                border-radius: 10px;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 20px;
+                border: none;
+                color: #F2F4FE;
+                margin: 20px;
+                cursor: pointer;
+            }
+        }
+
+        .allContent {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+
+            .contentYellow {
+
+                // Planned
+                .plan {
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 26px;
+                    /* identical to box height */
+                    letter-spacing: -0.25px;
+                    color: #3A4374;
+                }
+
+                .ideas {
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 23px;
+                    color: #647196;
+                }
+            }
+
+            // Plannedend
+
+            // Progress
+            .contentPurple {
+                .progress {
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 26px;
+                    /* identical to box height */
+                    letter-spacing: -0.25px;
+                    color: #3A4374;
+                }
+
+                .developed {
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 23px;
+                    color: #647196;
+                }
+            }
+
+            .contentGreen {
+                .live {
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 26px;
+                    /* identical to box height */
+                    letter-spacing: -0.25px;
+                    color: #3A4374;
+                }
+
+                .features {
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 23px;
+                    color: #647196;
+                }
+            }
+        }
+
+        // !Cards-------------------------
+        .cards {
+            display: flex;
+            justify-content: space-between;
+
+            // 1-ci card
+            .first-cardsYellow {
+                .yellowCard {
+                    border-top: 7px solid #F49F85;
+                    ;
+                    margin-top: 25px;
+                    padding: 16px;
+                    height: 272px;
+                    width: 310px;
+                    border-radius: 5px;
+                    background: #FFFFFF;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+
+                    .aroundFlex {
+                        display: flex;
+                        align-items: center;
+
+                        .cevre {
+                            background: #F49F85;
+                            height: 8px;
+                            width: 8px;
+                            border-radius: 50px;
+                        }
+
+
+                        // !yazilar
+                        .onePlan {
+                            margin-left: 5px;
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 23px;
+
+                            color: #647196;
+
+                        }
+                    }
+
+                    .comprehensive {
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 26px;
+                        /* identical to box height */
+
+                        letter-spacing: -0.25px;
+
+                        color: #3A4374;
+
+                    }
+
+                    .detailed {}
+
+
+
+                    .feature {
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 13px;
+                        line-height: 19px;
+                        /* identical to box height */
+
+                        background: #F2F4FF;
+                        border-radius: 10px;
+                        color: #4661E6;
+                        height: 30px;
+                        width: 77px;
+                        border-radius: 10px;
+                        border: none;
+                        cursor: pointer;
+                    }
+
+                    .reports {
+                        display: flex;
+                        justify-content: space-between;
+
+                        .one-message-count:hover {
+                            background: #CFD7FF;
+
+                        }
+
+                        .one-message-count {
+                            width: 69px;
+                            height: 40px;
+                            background: #F2F4FE;
+                            border-radius: 10px;
+                            display: flex;
+                            justify-content: space-evenly;
+                            align-items: center;
+                            transition: 0.3s;
+
+                            .count112 {}
+
+                            img {
+                                height: 4px;
+                                width: 8px;
+                                border-radius: 0px;
+                                color: black;
+                            }
+                        }
+
+                        .messageFlex {
+                            display: flex;
+                            align-items: center;
+
+                            .message-one {
+                                width: 18px;
+                                height: 16px;
+                            }
+
+                            .message-count-one {
+                                font-family: 'Jost';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 18px;
+                                line-height: 23px;
+                                text-align: center;
+                                letter-spacing: -0.222222px;
+                                width: 18px;
+                                height: 23px;
+                                color: #3A4374;
+                            }
+                        }
+                    }
+
+                    // !Firstcardend
+                }
+            }
+
+            .first-cardsYellow {
+                .purpleCard {
+                    border-top: 7px solid #AD1FEA;
+                    ;
+                    margin-top: 25px;
+                    padding: 16px;
+                    height: 272px;
+                    width: 310px;
+                    border-radius: 5px;
+                    background: #FFFFFF;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+
+                    .aroundFlex {
+                        display: flex;
+                        align-items: center;
+
+                        .cevre {
+                            background: #AD1FEA;
+                            height: 8px;
+                            width: 8px;
+                            border-radius: 50px;
+                        }
+
+
+                        // !yazilar
+                        .onePlan {
+                            margin-left: 5px;
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 23px;
+
+                            color: #647196;
+
+                        }
+                    }
+
+                    .comprehensive {
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 26px;
+                        /* identical to box height */
+
+                        letter-spacing: -0.25px;
+
+                        color: #3A4374;
+
+                    }
+
+                    .feature {
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 13px;
+                        line-height: 19px;
+                        /* identical to box height */
+
+                        background: #F2F4FF;
+                        border-radius: 10px;
+                        color: #4661E6;
+                        height: 30px;
+                        width: 77px;
+                        border-radius: 10px;
+                        border: none;
+                        cursor: pointer;
+                    }
+
+                    .reports {
+                        display: flex;
+                        justify-content: space-between;
+
+                        .one-message-count:hover {
+                            background: #CFD7FF;
+
+                        }
+
+                        .one-message-count {
+                            width: 69px;
+                            height: 40px;
+                            background: #F2F4FE;
+                            border-radius: 10px;
+                            display: flex;
+                            justify-content: space-evenly;
+                            align-items: center;
+                            transition: 0.3s;
+
+                            .count112 {}
+
+                            img {
+                                height: 4px;
+                                width: 8px;
+                                border-radius: 0px;
+                                color: black;
+                            }
+                        }
+
+                        .messageFlex {
+                            display: flex;
+                            align-items: center;
+
+                            .message-one {
+                                width: 18px;
+                                height: 16px;
+                            }
+
+                            .message-count-one {
+                                font-family: 'Jost';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 18px;
+                                line-height: 23px;
+                                text-align: center;
+                                letter-spacing: -0.222222px;
+                                width: 18px;
+                                height: 23px;
+                                color: #3A4374;
+                            }
+                        }
+                    }
+
+                    // !Firstcardend
+                    
+                }
+
+            }
+
+            .first-cardsYellow {
+                .greenCard {
+                    border-top: 7px solid #62BCFA;
+                    ;
+                    margin-top: 25px;
+                    padding: 16px;
+                    height: 272px;
+                    width: 310px;
+                    border-radius: 5px;
+                    background: #FFFFFF;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+
+                    .aroundFlex {
+                        display: flex;
+                        align-items: center;
+
+                        .cevre {
+                            background: #62BCFA;
+                            height: 8px;
+                            width: 8px;
+                            border-radius: 50px;
+                        }
+
+
+                        // !yazilar
+                        .onePlan {
+                            margin-left: 5px;
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 23px;
+
+                            color: #647196;
+
+                        }
+                    }
+
+                    .comprehensive {
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 26px;
+                        /* identical to box height */
+
+                        letter-spacing: -0.25px;
+
+                        color: #3A4374;
+
+                    }
+
+                    .feature {
+                        width: 100px;
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 13px;
+                        line-height: 19px;
+                        /* identical to box height */
+                        background: #F2F4FF;
+                        border-radius: 10px;
+                        color: #4661E6;
+                        height: 30px;
+                        border-radius: 10px;
+                        border: none;
+                        cursor: pointer;
+                    }
+
+                    .reports {
+                        display: flex;
+                        justify-content: space-between;
+
+                        .one-message-count:hover {
+                            background: #CFD7FF;
+
+                        }
+
+                        .one-message-count {
+                            width: 69px;
+                            height: 40px;
+                            background: #F2F4FE;
+                            border-radius: 10px;
+                            display: flex;
+                            justify-content: space-evenly;
+                            align-items: center;
+                            transition: 0.3s;
+
+                            .count112 {}
+
+                            img {
+                                height: 4px;
+                                width: 8px;
+                                border-radius: 0px;
+                                color: black;
+                            }
+                        }
+
+                        .messageFlex {
+                            display: flex;
+                            align-items: center;
+
+                            .message-one {
+                                width: 18px;
+                                height: 16px;
+                            }
+
+                            .message-count-one {
+                                font-family: 'Jost';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 18px;
+                                line-height: 23px;
+                                text-align: center;
+                                letter-spacing: -0.222222px;
+                                width: 18px;
+                                height: 23px;
+                                color: #3A4374;
+                            }
+                        }
+                    }
+
+                    // !Firstcardend
+                }
+            }
+        }
+    }
+}

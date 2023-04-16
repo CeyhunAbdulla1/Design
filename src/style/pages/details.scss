@@ -1,0 +1,688 @@
+body {
+    background: #F2F2F2;
+
+    .details {
+        .container {
+            max-width: 1170px;
+            margin: 0 auto;
+            //  1-CI HISsE
+            .backandEdit {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 84px;
+                text-align: center;
+                width: 100%;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 20px;
+
+                color: #647196;
+
+                .image {
+                    width: 71px;
+                    height: 16px;
+
+
+                    .img {}
+
+                    p {
+                        margin-top: 10px;
+                    }
+                }
+
+                .editButton {
+                    width: 142px;
+                    height: 44px;
+                    background: #4661E6;
+                    border-radius: 10px;
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 20px;
+                    border: none;
+                    color: #F2F4FE;
+                }
+            }
+            // 1-ci Hisse end
+
+            // 2ci hisse
+            .message {
+                width: 720px;
+                height: 151px;
+                background: #FFFFFF;
+                border-radius: 10px;
+                margin-left: 240px;
+                margin-top: 24px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .message-count {
+                    width: 40px;
+                    height: 53px;
+                    background: #F2F4FE;
+                    border-radius: 10px;
+                    text-align: center;
+                    transition: 0.3s;
+
+                    &:hover {
+                        background: #CFD7FF;
+
+                    }
+
+                    img {
+                        margin-top: 5px
+                    }
+
+                    p {
+                        margin-top: 5px;
+                    }
+                }
+
+                .featureButton {
+                    width: 77px;
+                    height: 30px;
+                    margin-top: 5px;
+                    background: #F2F4FF;
+                    border-radius: 10px;
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 13px;
+                    line-height: 19px;
+                    border: none;
+                    /* identical to box height */
+
+                    color: #4661E6;
+
+                }
+
+                h3 {}
+
+                .darkmode {}
+
+                .message-count-four {
+                    display: flex;
+
+                    .message-fourth {
+                        margin-right: 5px;
+                    }
+                }
+            }
+
+            // 2-ci hisse end
+
+            .comments {
+                position: relative;
+                width: 720px;
+                height: 907px;
+                background: #FFFFFF;
+                border-radius: 10px;
+                margin-left: 240px;
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+
+                p {
+                    position: absolute;
+                    left: 34px;
+                    top: 24px;
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 26px;
+                    letter-spacing: -0.25px;
+                    color: #3A4374;
+                }
+
+                .moss {
+                    width: 666px;
+                    height: 123px;
+
+                    img {
+                        position: absolute;
+                        top: 72px;
+                        left: 32px;
+                    }
+
+                    h3 {
+                        position: absolute;
+                        top: 78px;
+                        left: 94px;
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 20px;
+                        letter-spacing: -0.194444px;
+                        color: #3A4374;
+                    }
+
+                    h4 {
+                        position: absolute;
+                        top: 98px;
+                        left: 94px;
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 20px;
+                        color: #647196;
+                    }
+
+                    p {
+                        position: absolute;
+                        top: 135px;
+                        left: 94px;
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 22px;
+                        color: #647196;
+                    }
+                }
+
+                .reply {
+                    position: absolute;
+                    left: 615px;
+                    top: 70px;
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 13px;
+                    line-height: 19px;
+                    color: #4661E6;
+                }
+
+                .moss-reply {
+                    position: relative;
+                    z-index: 1;
+                    top: 105px;
+                    left: 94px;
+                    background: #F7F8FD;
+                    border: 1px solid #4661E6;
+                    border-radius: 5px;
+                    height: 80px;
+                    width: 461px;
+                    border-radius: 5px;
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 22px;
+                    color: #3A4374;
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+
+
+
+                .ceka {
+                    margin-top: 150px;
+                    margin-left: 150px;
+                    position: absolute;
+                    z-index: 2;
+                }
+
+                .xett {
+                    position: absolute;
+                    background: #8C92B3;
+                    mix-blend-mode: normal;
+                    margin-top: 90px;
+                    margin-left: 80px;
+                    height: 1px;
+                    width: 615px;
+
+                    border-radius: 0px;
+                }
+
+                .postReply {
+                    background: #AD1FEA;
+                    border-radius: 10px;
+                    height: 44px;
+                    width: 117px;
+                    border-radius: 10px;
+                    border: none;
+                    margin-top: 25px;
+                    margin-left: 580px;
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 20px;
+
+                    color: #F2F4FE;
+                }
+
+                // !ikinci comments
+                .two-comments {
+                    width: 700px;
+                    height: 800px;
+
+                    .skinner {
+                        margin-top: 152px;
+                        width: 666px;
+                        height: 123px;
+
+                        img {
+                            margin-left: 32px;
+                        }
+
+                        h3 {
+                            margin-top: -56px;
+                            margin-left: 102px;
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 20px;
+                            letter-spacing: -0.194444px;
+
+                            color: #3A4374;
+
+                        }
+
+                        h4 {
+                            display: inline;
+                            margin-top: -2px;
+                            margin-left: 102px;
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 20px;
+
+                            color: #647196;
+                        }
+
+
+
+                        .Second {
+                            margin-left: 94px;
+                            width: 620px;
+                            margin-top: 20px;
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 22px;
+
+                            color: #647196;
+
+                        }
+
+                        span {
+                            position: absolute;
+                            margin-left: 650px;
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 13px;
+                            line-height: 19px;
+                            /* identical to box height */
+
+
+                            color: #4661E6;
+                        }
+                    }
+
+
+
+
+                    .postReplytwo {
+                        position: absolute;
+                        margin-top: -83px;
+                        background: #AD1FEA;
+                        border-radius: 10px;
+                        height: 44px;
+                        width: 117px;
+                        border-radius: 10px;
+                        border: none;
+                        margin-left: 580px;
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 20px;
+
+                        color: #F2F4FE;
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+
+                    .moss-replytwo {
+                        display: inline-block;
+                        background: #F7F8FD;
+                        border: 1px solid #4661E6;
+                        border-radius: 5px;
+                        height: 80px;
+                        width: 441px;
+                        margin-top: 25px;
+                        margin-left: 90px;
+                    }
+
+                }
+
+                // ! 3cu
+                .third-comments {
+                    width: 700px;
+                    height: 800px;
+
+                    .darktheme {
+                        margin-top: 50px;
+                        width: 666px;
+                        height: 123px;
+
+                        .reply-three {
+                            position: absolute;
+                            margin-left: 650px;
+                            margin-top: 10px;
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 13px;
+                            line-height: 19px;
+                            /* identical to box height */
+
+
+                            color: #4661E6;
+
+                        }
+
+                        img {
+                            margin-left: 95px;
+                        }
+
+                        h3 {
+                            margin-left: 185px;
+                            margin-top: -40px;
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 20px;
+                            letter-spacing: -0.194444px;
+
+                            color: #3A4374;
+
+                        }
+
+                        h4 {
+                            margin-left: 185px;
+                            margin-top: -2px;
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 20px;
+
+                            color: #647196;
+                        }
+
+                        h5 {
+                            margin-left: 185px;
+                            margin-top: 15px;
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 22px;
+
+                            color: #647196;
+
+                            span {
+                                font-family: 'Jost';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 15px;
+                                line-height: 22px;
+
+                                color: #AD1FEA;
+                            }
+                        }
+                    }
+
+                    .moss-replythree {
+                        background: #F7F8FD;
+                        border: 1px solid #4661E6;
+                        border-radius: 5px;
+                        height: 80px;
+                        width: 341px;
+                        margin-top: 35px;
+                        margin-left: 183px;
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+
+                    .postReplythree {
+                        position: absolute;
+                        background: #AD1FEA;
+                        border-radius: 10px;
+                        margin-top: -81px;
+                        height: 44px;
+                        width: 117px;
+                        border-radius: 10px;
+                        border: none;
+                        margin-left: 580px;
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 20px;
+
+                        color: #F2F4FE;
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+                }
+
+                // !4
+                .fourth-comments {
+                    width: 700px;
+                    height: 800px;
+
+                    .darktheme {
+                        margin-top: 20px;
+                        width: 666px;
+                        height: 123px;
+
+                        .reply-fourth {
+                            position: absolute;
+                            margin-left: 650px;
+                            margin-top: 10px;
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 13px;
+                            line-height: 19px;
+                            /* identical to box height */
+
+
+                            color: #4661E6;
+
+                        }
+
+                        img {
+                            margin-left: 95px;
+                        }
+
+                        h3 {
+                            margin-left: 185px;
+                            margin-top: -40px;
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 20px;
+                            letter-spacing: -0.194444px;
+
+                            color: #3A4374;
+
+                        }
+
+                        h4 {
+                            margin-left: 185px;
+                            margin-top: -2px;
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 20px;
+
+                            color: #647196;
+                        }
+
+                        h5 {
+                            margin-left: 185px;
+                            margin-top: 15px;
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 22px;
+
+                            color: #647196;
+
+                            span {
+                                font-family: 'Jost';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 15px;
+                                line-height: 22px;
+
+                                color: #AD1FEA;
+                            }
+                        }
+                    }
+
+                    .moss-replyfourth {
+                        background: #F7F8FD;
+                        border: 1px solid #4661E6;
+                        border-radius: 5px;
+                        height: 80px;
+                        width: 341px;
+                        margin-top: 35px;
+                        margin-left: 183px;
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+
+                    .postReplyfourth {
+                        position: absolute;
+                        margin-top: -83px;
+                        background: #AD1FEA;
+                        border-radius: 10px;
+                        height: 44px;
+                        width: 117px;
+                        border-radius: 10px;
+                        border: none;
+                        margin-left: 580px;
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 20px;
+
+                        color: #F2F4FE;
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .addComment {
+            width: 730px;
+            height: 246px;
+            background-color: red;
+            margin-left: 240px;
+            background: #FFFFFF;
+            border-radius: 10px;
+            margin-top: 24px;
+
+            span {
+                position: absolute;
+                margin-top: 24px;
+                margin-left: 34px;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 26px;
+                /* identical to box height */
+
+                letter-spacing: -0.25px;
+
+                color: #3A4374;
+            }
+
+            input {
+                margin-left: 34px;
+                margin-top: 74px;
+                background: #F7F8FD;
+                border: 1px solid #4661E6;
+                border-radius: 5px;
+                height: 80px;
+                width: 664px;
+                border-radius: 5px;
+
+                &:focus {
+                    outline: none;
+                }
+
+            }
+
+            p {
+                position: absolute;
+                margin-top: 41px;
+                margin-left: 34px;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 22px;
+                /* identical to box height */
+
+
+                color: #647196;
+            }
+
+            .postcomment {
+                position: absolute;
+                height: 44px;
+                width: 94px;
+                margin-left: 606px;
+                margin-top: 21px;
+                border-radius: nullpx;
+                border: none;
+                background: #C75AF6;
+                border-radius: 10px;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 20px;
+
+                color: #F2F4FE;
+
+            }
+        }
+    }
+}

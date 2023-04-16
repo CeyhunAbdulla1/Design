@@ -1,0 +1,653 @@
+.desktop {
+    background-color: #F2F2F2;
+
+    .container {
+        max-width: 1170px;
+        margin: 50px auto;
+
+        .all {
+            display: flex;
+            justify-content: space-between;
+
+            .right {
+                display: flex;
+                flex-direction: column;
+
+                .right-side {
+                    .cards {
+                        margin-top: 15px;
+
+                        .card-enhancament {
+                            height: 141px;
+                            background: #FFFFFF;
+                            border-radius: 10px;
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+
+                            // !1ci card yazilar ve button
+                            .card-contentFlex {
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+
+                                .solutions {
+                                    font-family: 'Jost';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 18px;
+                                    line-height: 26px;
+                                    /* identical to box height */
+
+                                    letter-spacing: -0.25px;
+
+                                    color: #3A4374;
+                                }
+
+                                .spesific {
+                                    font-family: 'Jost';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 23px;
+
+                                    color: #647196;
+                                }
+
+                                .enhancementButton {
+                                    width: 111px;
+                                    height: 30px;
+                                    color: #4661E6;
+                                    border-radius: 10px;
+                                    border: none;
+                                    transition: 0.4s;
+                                    margin-top: 5px;
+
+                                }
+
+                                .one-message-count:hover {
+                                    background: #CFD7FF;
+
+                                }
+
+                                .one-message-count {
+                                    margin-right: 30px;
+                                    margin-bottom: 15px;
+                                    width: 40px;
+                                    height: 53px;
+                                    margin-bottom: 18px;
+                                    background: #F2F4FE;
+                                    border-radius: 10px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    transition: 0.3s;
+                                    align-items: center;
+                                    justify-content: center;
+                                    transition: 0.3s;
+
+                                    p {}
+
+                                    img {
+
+                                        height: 4px;
+                                        width: 8px;
+                                        margin-bottom: 6px;
+                                        border-radius: 0px;
+
+                                        color: black;
+                                    }
+                                }
+
+
+                            }
+
+                            .message-first {
+                                display: flex;
+
+                                .message-one {
+                                    width: 18px;
+                                    height: 16px;
+                                    margin: 4px;
+                                }
+
+                                .message-count-one {
+                                    font-family: 'Jost';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 18px;
+                                    line-height: 23px;
+                                    text-align: center;
+                                    letter-spacing: -0.222222px;
+
+                                    color: #3A4374;
+                                }
+                            }
+                        }
+
+                        // !first card end
+
+                        // !------ second card
+
+                        .card-feature {
+                            height: 141px;
+                            background: #FFFFFF;
+                            border-radius: 10px;
+                            margin-top: 20px;
+                            display: flex;
+                            justify-content: space-evenly;
+                            align-items: center;
+
+                            .card-contentFlextwo {
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+
+                                .options {
+
+                                    font-family: 'Jost';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 18px;
+                                    line-height: 26px;
+                                    /* identical to box height */
+
+                                    letter-spacing: -0.25px;
+
+                                    color: #3A4374;
+                                }
+
+                                .darkmode {
+
+                                    font-family: 'Jost';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 23px;
+
+                                    color: #647196;
+                                }
+
+                                .featureButton {
+                                    margin-top: 5px;
+                                    width: 111px;
+                                    height: 30px;
+                                    color: #4661E6;
+                                    border-radius: 10px;
+                                    border: none;
+                                    transition: 0.4s;
+
+                                }
+
+                                .two-message-count:hover {
+                                    background: #CFD7FF;
+
+                                }
+
+                                .two-message-count {
+                                    display: flex;
+                                    justify-content: flex-start;
+                                    align-items: center;
+                                    margin-right: 24px;
+                                    margin-left: 5px;
+                                    margin-bottom: 18px;
+                                    width: 40px;
+                                    height: 53px;
+                                    background: #F2F4FE;
+                                    border-radius: 10px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    transition: 0.3s;
+
+                                    p {}
+
+                                    img {
+
+                                        height: 4px;
+                                        width: 8px;
+                                        margin-bottom: 6px;
+                                        border-radius: 0px;
+
+                                        color: black;
+                                    }
+                                }
+
+                            }
+
+                            .message-second {
+                                display: flex;
+
+                                .message-two {
+                                    width: 18px;
+                                    height: 16px;
+                                    margin: 4px;
+                                }
+
+                                .message-count-two {
+
+                                    font-family: 'Jost';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 18px;
+                                    line-height: 23px;
+                                    text-align: center;
+                                    letter-spacing: -0.222222px;
+                                    width: 18px;
+                                    height: 23px;
+                                    color: #3A4374;
+                                }
+                            }
+                        }
+
+                        // !second card end
+
+                        // !third card
+                        .card-feature-qa {
+                            height: 141px;
+                            background: #FFFFFF;
+                            border-radius: 10px;
+                            margin-top: 20px;
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+
+                            .card-contentFlexthree {
+                                display: flex;
+                                justify-content: space-evenly;
+                                align-items: center;
+
+                                .hubs {
+                                    font-family: 'Jost';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 18px;
+                                    line-height: 26px;
+                                    /* identical to box height */
+
+                                    letter-spacing: -0.25px;
+
+                                    color: #3A4374;
+                                }
+
+                                .referance {
+                                    font-family: 'Jost';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 23px;
+
+                                    color: #647196;
+                                }
+
+                                .feature-qaButton {
+                                    margin-top: 5px;
+                                    width: 111px;
+                                    height: 30px;
+                                    color: #4661E6;
+                                    border-radius: 10px;
+                                    border: none;
+                                    transition: 0.4s;
+
+                                }
+
+                                .third-message-count:hover {
+                                    background: #CFD7FF;
+
+                                }
+
+                                .third-message-count {
+                                    margin-right: 22px;
+                                    margin-bottom: 18px;
+                                    width: 40px;
+                                    height: 53px;
+                                    background: #F2F4FE;
+                                    border-radius: 10px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    transition: 0.3s;
+
+                                    p {}
+
+                                    img {
+                                        height: 4px;
+                                        width: 8px;
+                                        margin-bottom: 6px;
+                                        border-radius: 0px;
+
+                                        color: black;
+                                    }
+                                }
+                            }
+
+                            .message {
+                                display: flex;
+                                justify-content: space-around;
+                                align-items: center;
+                                .message-third {
+                                    height: 16px;
+                                    width: 18px;
+                                }
+
+                                .message-count-third {
+                                    font-family: 'Jost';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 18px;
+                                    line-height: 23px;
+                                    text-align: center;
+                                    letter-spacing: -0.222222px;
+                                    width: 18px;
+                                    height: 23px;
+                                    color: #3A4374;
+                                }
+                            }
+                        }
+
+                        // !third card end
+
+                        // !fourth card
+                        .card-feature-image {
+                            position: relative;
+                            height: 141px;
+                            background: #FFFFFF;
+                            border-radius: 10px;
+                            margin-top: 20px;
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                            .card-contentFlexfour{
+                                display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                                .feedback-two {
+                                    font-family: 'Jost';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 18px;
+                                    line-height: 26px;
+                                    /* identical to box height */
+    
+                                    letter-spacing: -0.25px;
+    
+                                    color: #3A4374;
+                                }
+    
+                                .images {
+                                    font-family: 'Jost';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 23px;
+    
+                                    color: #647196;
+                                }
+    
+                                .enhancament-videoButton {
+                                    width: 111px;
+                                    height: 30px;
+                                    color: #4661E6;
+                                    border-radius: 10px;
+                                    border: none;
+                                    transition: 0.4s;
+                                    margin-top: 5px;
+                                }
+    
+                                .fourth-message-count:hover {
+                                    background: #CFD7FF;
+    
+                                }
+    
+                                .fourth-message-count {
+                                    margin-right: 22px;
+                                    margin-bottom: 15px;
+                                    width: 40px;
+                                    height: 53px;
+                                    background: #F2F4FE;
+                                    border-radius: 10px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    transition: 0.3s;
+    
+                                    p {
+                                    
+                                    }
+    
+                                    img {
+                                        height: 4px;
+                                        width: 8px;
+                                        margin-bottom: 6px;
+                                        border-radius: 0px;
+    
+                                        color: black;
+                                    }
+                                }
+                            }
+
+                            .message{
+                                display: flex;
+                                justify-content: space-around;
+                                align-items: center;
+                                .message-fourth {
+                                    width: 18px;
+                                }
+    
+                                .message-count-fourth {
+                                    
+                                    font-family: 'Jost';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 18px;
+                                    line-height: 23px;
+                                    text-align: center;
+                                    letter-spacing: -0.222222px;
+                                    width: 18px;
+                                    height: 23px;
+                                    color: #3A4374;
+                                }
+                            }
+                        }
+
+                        // !fourth card end
+                        // !fiveth crad--------
+                        .card-feature-ability {
+                            width: 825px;
+                            height: 141px;
+                            background: #FFFFFF;
+                            border-radius: 10px;
+                            margin-top: 20px;
+                            .card-contentFlexfifth{
+                                .ability {
+                                    font-family: 'Jost';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 18px;
+                                    line-height: 26px;
+                                    /* identical to box height */
+    
+                                    letter-spacing: -0.25px;
+    
+                                    color: #3A4374;
+                                }
+    
+                                .post {
+                                    font-family: 'Jost';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 23px;
+    
+                                    color: #647196;
+                                }
+    
+                                .feature-abilityButton {
+                                    width: 111px;
+                                    height: 30px;
+                                    color: #4661E6;
+                                    border-radius: 10px;
+                                    border: none;
+                                    transition: 0.4s;
+    
+                                }
+    
+                                .fiveth-message-count:hover {
+                                    background: #CFD7FF;
+    
+                                }
+    
+                                .fiveth-message-count {
+                                    width: 40px;
+                                    height: 53px;
+                                    background: #F2F4FE;
+                                    border-radius: 10px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    transition: 0.3s;
+    
+                                    p {
+
+                                    }
+    
+                                    img {
+
+                                        height: 4px;
+                                        width: 8px;
+                                        margin-bottom: 6px;
+                                        border-radius: 0px;
+    
+                                        color: black;
+                                    }
+                                }
+
+                            }
+
+                            .message-fiveth {
+
+                            }
+
+                            .message-count-fiveth {
+                                font-family: 'Jost';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 18px;
+                                line-height: 23px;
+                                text-align: center;
+                                letter-spacing: -0.222222px;
+                                width: 18px;
+                                height: 23px;
+                                color: #3A4374;
+                            }
+                        }
+
+                        // !fiveth crad-------------------
+                        // !sixeth card
+                        .card-feature-preview {
+                            width: 825px;
+                            height: 141px;
+                            background: #FFFFFF;
+                            border-radius: 10px;
+                            margin-top: 20px;
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                            .card-contentFlexfifth{
+                                display: flex;
+                                justify-content: space-around;
+                                align-items: center;
+                                .preview {
+                                    font-family: 'Jost';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 18px;
+                                    line-height: 26px;
+                                    /* identical to box height */
+    
+                                    letter-spacing: -0.25px;
+    
+                                    color: #3A4374;
+                                }
+    
+                                .filter {
+                                    font-family: 'Jost';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 23px;
+    
+                                    color: #647196;
+                                }
+    
+                                .feature-filterButton {
+                                    width: 111px;
+                                    margin-top: 2px;
+                                    height: 30px;
+                                    color: #4661E6;
+                                    border-radius: 10px;
+                                    border: none;
+                                    transition: 0.4s;
+    
+                                }
+    
+                                .sixeth-message-count:hover {
+                                    background: #CFD7FF;
+    
+                                }
+    
+                                .sixeth-message-count {
+                                    margin-right:24px;
+                                    margin-top: -15px;
+                                    width: 40px;
+                                    height: 53px;
+                                    background: #F2F4FE;
+                                    border-radius: 10px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    transition: 0.3s;
+    
+                                    p {
+
+                                    }
+    
+                                    img {
+                                        width: 8px;
+                                        margin-bottom: 6px;
+                                        border-radius: 0px;
+    
+                                        color: black;
+                                    }
+                                }
+                            }
+
+                            .message{
+                                display: flex;
+                                align-items: center;
+                                .message-sixeth {
+                                    width: 18px;
+                                    height: 16px;
+                                }
+    
+                                .message-count-sixeth {
+                                    font-family: 'Jost';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 18px;
+                                    line-height: 23px;
+                                    text-align: center;
+                                    letter-spacing: -0.222222px;
+                                    width: 18px;
+                                    height: 23px;
+                                    color: #3A4374;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+}
